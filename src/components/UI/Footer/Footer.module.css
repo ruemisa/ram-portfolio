@@ -1,5 +1,6 @@
 .Footer {
-  background-color: orange;
+  background-color:rgba(49, 40, 35, 1);
+  color: rgba(255,242,233,1); 
   position: fixed;
   bottom: 0;
   right: 0;
@@ -27,7 +28,6 @@
 .SocialNav {
   grid-area: soc-nav;
   justify-self: center;
-  border: 1px solid red;
   margin-bottom: 1rem;
   padding: 1.5rem;
 }
@@ -39,6 +39,7 @@
 
 .SocialNav ul li i {
   font-size: 2rem;
+  color: rgba(255,100,  0,1);
 }
 
 .Copyright {

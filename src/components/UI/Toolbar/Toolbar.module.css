@@ -1,5 +1,5 @@
 .Toolbar {
-  background-color: orange;
+  background-color: rgba(255,140, 65,1);
   display: grid;
   grid-template-columns: 1.5fr .5fr;
   height: auto;
@@ -17,7 +17,6 @@
   width: 80%;
   padding: 1.2rem;
   text-align: center;
-  border: 1px solid red;
 }
 
 .Nav ul li {

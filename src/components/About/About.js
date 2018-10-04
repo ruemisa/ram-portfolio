@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
 
+import ProfilePic from '../../images/profile.jpg';
+import styles from './About.module.css';
 class About extends Component {
     render() {
         return (
-            <div>
-                <div>
-                    <h2>Who is R A M, really?</h2>
+            <div className={ styles.About }>
+                <div className={ styles.Intro }>
+                    <h2>Who is R A M?</h2>
+                    <img src={ProfilePic} alt="profile"/>
+                    <p>"And no, it is not Random Access Memory."</p>
                 </div>
             
                 <div>
-                    <h4>"And no, it is not Random Access Memory."</h4>
                     <p>I am Ruel Alfonso Misa. Hence, RAM. I am a Front-End Developer that is based in New York City. I always had a passion for building things and learning new techniques. So my transition from the culinary industry to tech wasn't difficult. There are numerous similarities such as learning new skills on the fly and delivering great quality work. </p>
                 </div>
 
@@ -26,15 +29,7 @@ class About extends Component {
 
                 <div>
                     <h3> Skills </h3>
-                    <ul>
-                        <li> JavaScript </li>
-                        <li> CSS </li>
-                        <li> HTML </li>
-                        <li> React </li>
-                        <li> Redux </li>
-                        <li> Ruby </li>
-                        <li> Ruby on Rails </li>
-                    </ul>
+                    <p> JavaScript, CSS, HTML, React, Redux, Ruby, Ruby on Rails </p>
                 </div>
             </div>
         );

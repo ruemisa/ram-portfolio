@@ -8,8 +8,8 @@ class Landing extends Component {
             <div className={ styles.Landing }>
                 <div className={ styles.Hero }>
                     <div className={ styles.Catchphrase }>
-                        <h2>Hello. This is RAM.</h2>
-                        <p>Front-End Developer. Writer. Storyteller.</p>
+                        <h2>Hello. This is <span className={ styles.Emphasis }>RAM</span>.</h2>
+                        <p><span className={ styles.Emphasis }>Front-End Developer</span>. Writer. Storyteller.</p>
                     </div>
                 </div>
 

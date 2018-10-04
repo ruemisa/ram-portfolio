@@ -5,10 +5,29 @@
 .Hero {
   background: center / cover no-repeat url('../../images/hero.jpg');
   height: 60vh;
-  position: relative;
+  display: flex;
 }
 
 .Catchphrase {
-  position: absolute;
-  bottom: 0;
+  align-self: center;
+  margin-left: 15rem;
+  padding: 2rem;
+}
+
+.Catchphrase h2 {
+  font-size: 3.2rem;
+  letter-spacing: .2rem;
+  margin-bottom: .5rem;
+}
+
+.Emphasis {
+  font-weight: bold;
+  color: rgba(255,100,  0,1);
+  letter-spacing: .5rem;
+}
+
+.Catchphrase p {
+  font-size: 1.5rem;
+  letter-spacing: .5rem;
+  color: rgba(255,242,233,1);
 }

@@ -1,0 +1,48 @@
+.Footer {
+  background-color: orange;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 1rem;
+  height: 15vh;
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: 
+  'contact . soc-nav'
+  'contact . copyright';
+}
+
+.Contact {
+  grid-area: contact;
+  padding: 1rem;
+}
+
+.Contact p {
+  font-size: 1.2rem;
+  letter-spacing: .2rem;
+  padding: .5rem;
+}
+
+.SocialNav {
+  grid-area: soc-nav;
+  justify-self: center;
+  border: 1px solid red;
+  margin-bottom: 1rem;
+  padding: 1.5rem;
+}
+
+.SocialNav ul li {
+  display: inline-block;
+  padding: 0 1.2rem;
+}
+
+.SocialNav ul li i {
+  font-size: 2rem;
+}
+
+.Copyright {
+  grid-area: copyright;
+  justify-self: center;
+  font-size: .8rem;
+}

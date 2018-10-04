@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import Toolbar from '../../components/UI/Toolbar/Toolbar';
+import Footer from '../../components/UI/Footer/Footer';
 
 class Layout extends Component {
     constructor() {
@@ -15,11 +16,10 @@ class Layout extends Component {
         return (
             <React.Fragment>
                 <Toolbar />
-                <div> SIDE MENU </div>
                 <main>
                     { this.props.children }
                 </main>
-                <div> FOOTER </div>
+                <Footer />
 
             </React.Fragment>            
         );

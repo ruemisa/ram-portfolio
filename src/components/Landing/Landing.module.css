@@ -1,0 +1,14 @@
+.Landing {
+  margin-bottom: 10rem;
+}
+
+.Hero {
+  background: center / cover no-repeat url('../../images/hero.jpg');
+  height: 60vh;
+  position: relative;
+}
+
+.Catchphrase {
+  position: absolute;
+  bottom: 0;
+}

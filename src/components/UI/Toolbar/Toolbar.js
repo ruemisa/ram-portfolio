@@ -1,14 +1,17 @@
 import React from 'react';
 
 import Navigation from '../Navigation/Navigation';
+import styles from './Toolbar.module.css';
 
-const toolbar = (props) => {
+const toolbar = () => {
     return (
-        <header>
+        <header className={ styles.Toolbar }>
             <div>
                 <h1>RAM</h1>
             </div>
-            <Navigation />
+            <nav className={ styles.Nav }>
+                <Navigation />
+            </nav>
         </header>
     );
 }

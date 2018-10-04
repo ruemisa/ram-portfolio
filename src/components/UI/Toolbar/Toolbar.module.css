@@ -1,0 +1,28 @@
+.Toolbar {
+  background-color: orange;
+  display: grid;
+  grid-template-columns: 1.5fr .5fr;
+  height: auto;
+  padding: 1rem .5rem;
+}
+
+.Toolbar h1 {
+  font-size: 4rem;
+  letter-spacing: 1rem;
+  padding: 1rem;
+}
+
+.Nav {
+  align-self: end;
+  width: 80%;
+  padding: 1.2rem;
+  text-align: center;
+  border: 1px solid red;
+}
+
+.Nav ul li {
+  display: inline-block;
+  padding: 0 1.2rem;
+  font-size: 1.5rem;
+}
+

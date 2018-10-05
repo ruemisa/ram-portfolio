@@ -1,0 +1,6 @@
+.Video {
+  height: 50%;
+  width: 50%;
+  margin: 1rem 0;
+  box-shadow: 5px 10px 50px 0px rgba(87, 87, 87, .8);
+}

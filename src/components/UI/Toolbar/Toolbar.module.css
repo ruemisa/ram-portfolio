@@ -1,7 +1,7 @@
 .Toolbar {
   background-color: rgba(255,140, 65,1);
   display: grid;
-  grid-template-columns: 1.5fr .5fr;
+  grid-template-columns: 1.25fr .75fr;
   height: auto;
   padding: 1rem .5rem;
 }
@@ -14,9 +14,14 @@
 
 .Nav {
   align-self: end;
+  justify-self: end;
   width: 80%;
   padding: 1.2rem;
   text-align: center;
+}
+
+.Nav ul {
+  padding: 1rem;
 }
 
 .Nav ul li {

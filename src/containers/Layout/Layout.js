@@ -1,30 +1,22 @@
 import React, { Component } from 'react';
 
-import Toolbar from '../../components/UI/Toolbar/Toolbar';
-import Footer from '../../components/UI/Footer/Footer';
+import Landing from '../../components/Landing/Landing';
+import Projects from '../../components/Projects/Projects';
+import About from '../../components/About/About';
 
 class Layout extends Component {
-    constructor() {
-        super();
-
-        this.state = {
-
-        }
-    }
 
     render() {
         return (
-            <React.Fragment>
-                <Toolbar />
-                <main>
-                    { this.props.children }
-                </main>
-                <Footer />
-
-            </React.Fragment>            
+            <div> 
+                <Landing />
+                <Projects />
+                <About />
+            </div>
         );
     }
 
 }
+
 
 export default Layout;

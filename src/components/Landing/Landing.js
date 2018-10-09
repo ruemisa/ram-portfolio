@@ -8,9 +8,12 @@ import MouseIcon from '../UI/MouseIcon/MouseIcon';
 import SocialNav from '../Navigation/SocialNav/SocialNav';
 import SideBar from '../Navigation/SideBar/SideBar';
 
+// Styling
+import styles from './Landing.module.css';
+
 const landing = ( props ) => {
     return (
-        <div>
+        <div className={ styles.Landing }>
             <Logo />
             <SocialNav />
             <SideBar />

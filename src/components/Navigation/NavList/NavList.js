@@ -11,17 +11,17 @@ const navList = ( props ) => {
     if (navType === "sideBar") {
         list = (
             <React.Fragment>
-                <NavListItem>Projects</NavListItem>
-                <NavListItem>About</NavListItem>
-                <NavListItem>Contact</NavListItem>            
+                <NavListItem link="#projects">Projects</NavListItem>
+                <NavListItem link="#about">About</NavListItem>
+                <NavListItem link="#contact">Contact</NavListItem>            
             </React.Fragment>
         );
     } else if (navType === "socNav") {
         list = (
             <React.Fragment>
-                <NavListItem>Twitter</NavListItem>
-                <NavListItem>Twitter</NavListItem>
-                <NavListItem>Twitter</NavListItem>
+                <NavListItem link="https://www.linkedin.com/in/ruemisa/" target="_blank"><i class="fab fa-linkedin-in"></i></NavListItem>
+                <NavListItem link="https://github.com/ruemisa" target="_blank"><i class="fab fa-github-alt"></i></NavListItem>
+                <NavListItem link="https://www.instagram.com/ruewoulddo/" target="_blank"><i class="fas fa-camera-retro"></i></NavListItem>
             </React.Fragment>
         );
     }

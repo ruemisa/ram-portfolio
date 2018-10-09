@@ -2,10 +2,8 @@ import React from 'react';
 
 const navListItem = ( props ) => {
     return (
-        <li 
-            href={ props.link }
-            target="_blank">
-            { props.children }
+        <li>
+            <a href={ props.link } target={ props.target }>{ props.children }</a>
         </li>
     );
 }

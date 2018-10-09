@@ -1,10 +1,16 @@
 import React from 'react';
 
+// Components
 import NavList from '../NavList/NavList';
+
+// Styling
+import styles from './SocialNav.module.css';
 
 const socNav = ( props ) => {
     return (
-        <NavList navType="socNav" />
+        <nav className={ styles.SocNav }>
+            <NavList navType="socNav" />
+        </nav>
     );
 }
 

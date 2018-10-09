@@ -14,15 +14,15 @@ import styles from './Landing.module.css';
 const landing = ( props ) => {
     return (
         <div className={ styles.Landing }>
-            <div>
+            <div className={ styles.Hero }>
                 <Logo />
             </div>
-            <div>
+            <div className={ styles.SidePanel }>
                 <SocialNav />
                 <SideBar />
+                <MouseIcon />
             </div>
             
-            <MouseIcon />
         </div>
     );
 }

@@ -1,6 +1,8 @@
 import React from 'react';
 
+// Components
 import NavListItem from './NavListItem//NavListItem';
+
 
 const navList = ( props ) => {
 
@@ -19,9 +21,24 @@ const navList = ( props ) => {
     } else if (navType === "socNav") {
         list = (
             <React.Fragment>
-                <NavListItem link="https://www.linkedin.com/in/ruemisa/" target="_blank"><i class="fab fa-linkedin-in"></i></NavListItem>
-                <NavListItem link="https://github.com/ruemisa" target="_blank"><i class="fab fa-github-alt"></i></NavListItem>
-                <NavListItem link="https://www.instagram.com/ruewoulddo/" target="_blank"><i class="fas fa-camera-retro"></i></NavListItem>
+                <ul>
+                    <NavListItem 
+                        link="https://www.linkedin.com/in/ruemisa/" 
+                        target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </NavListItem>
+                    <NavListItem 
+                        link="https://github.com/ruemisa" 
+                        target="_blank">
+                        <i class="fab fa-github-alt"></i>
+                    </NavListItem>
+                    <NavListItem 
+                        link="https://www.instagram.com/ruewoulddo/" 
+                        target="_blank">
+                        <i class="fas fa-camera-retro"></i>
+                    </NavListItem>
+                </ul>
+                
             </React.Fragment>
         );
     }

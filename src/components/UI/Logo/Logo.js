@@ -4,7 +4,15 @@ import styles from './Logo.module.css';
 
 const logo = (props) => {
     return (
-        <h1 className={ styles.Logo }>RAM</h1>
+        <React.Fragment>
+            <h1 className={ styles.Logo }>RAM</h1>
+            <div className={ styles.LineOne }></div>
+            <div className={ styles.LineTwo }>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </React.Fragment>
     );
 }
 

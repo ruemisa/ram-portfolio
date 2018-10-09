@@ -14,10 +14,14 @@ import styles from './Landing.module.css';
 const landing = ( props ) => {
     return (
         <div className={ styles.Landing }>
-            <Logo />
-            <SocialNav />
-            <SideBar />
-
+            <div>
+                <Logo />
+            </div>
+            <div>
+                <SocialNav />
+                <SideBar />
+            </div>
+            
             <MouseIcon />
         </div>
     );

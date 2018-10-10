@@ -5,8 +5,8 @@ import styles from './Video.module.css';
 
 const video = ( props ) => {
     return (
-        <video className={ styles.Selected } controls>
-            <source src={ props.link } type="video/mp4" />
+        <video className={ styles.Selected } controls src={ props.link }>
+            <source type="video/mp4" />
         </video>
     );
 }

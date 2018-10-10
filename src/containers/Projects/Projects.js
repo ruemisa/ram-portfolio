@@ -62,41 +62,62 @@ class Projects extends Component {
                 },
 
             ],
-            currentIndex: 1,
-            selectedProject: null
+            currentIndex: 0
         };
     };
     
+    goToNextProject = (e) => {
+        e.preventDefault();
+
+        let index = this.state.currentIndex;
+        let projects = this.state.projects;
+        let length = projects.length - 1;
+
+        if (index === length) {
+            index = -1;
+        }
+
+        ++index;
+
+        this.setState( {
+            currentIndex: index
+        })
+        
+    }
+
+    goToPrevProject = (e) => {
+        e.preventDefault();
+
+        let index = this.state.currentIndex;
+        let projects = this.state.projects;
+        let length = projects.length;
+
+        if (index < 1) {
+            index = length;
+        }
+
+        --index;
+        
+        this.setState( {
+            currentIndex: index
+        })
+    }
 
 
     render() {
 
-        const projectGallery = this.state.projects.map( project => {
-            return (
-                <div className={ styles.ProjectGrid }>                
-                    <Details 
-                        key={ project.id }
-                        title={ project.title } 
-                        technologies={ project.technologies }
-                        description={ project.description } 
-                        links={ project.links.map( (link, index) => { 
-                            return (
-                                <a href={ link.url } target="_blank" key={ index }>{link.name}</a>
-                            )                         
-                        })}/>
-                    <Gallery video={ project.video }/>
-                </div>
-            );
-        })
+        const selectedProject = this.state.projects[this.state.currentIndex];
 
         return (
             <div className={ styles.Projects } id="projects">
                 <h2 className={ styles.GridTitle }>My Work</h2>
-                    { projectGallery }
-                <nav className={ styles.CarouselNav }>
-                    <a href="#"><i class="fas fa-arrow-circle-up"></i></a>
-                    <a href="#"><i class="fas fa-arrow-circle-down"></i></a>
-                </nav>
+                <div className={ styles.ProjectGrid }>
+                    <Details data={ selectedProject }/>
+                    <Gallery 
+                        data={ selectedProject }
+                        onNext={ e => this.goToNextProject(e) }
+                        onPrev={ e => this.goToPrevProject(e) } />
+                </div>
             </div>
         );
     }

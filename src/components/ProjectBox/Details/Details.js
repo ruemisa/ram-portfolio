@@ -7,11 +7,11 @@ const details = ( props ) => {
     
     return (
         <div className={ styles.Details }>
-            <h2 className={ styles.ProjectName }>Project Name</h2>
-            <p className={ styles.Technologies }>HTML + JS + CSS</p>
-            <p className={ styles.Description }>A Full-Stack web application for a blog forum</p>
+            <h2 className={ styles.ProjectName }>{ props.title }</h2>
+            <p className={ styles.Technologies }>{ props.technologies }</p>
+            <p className={ styles.Description }>{ props.description }</p>
             <div className={ styles.ProjectLinks }>
-                <a href="#">Links</a>
+                { props.links }
             </div>
         </div>
     );

@@ -1,19 +1,7 @@
-.Gallery, .Gallery * {
-  border: 1px solid red;
-}
-
 .Gallery {
   display: flex;
   flex-flow: column;
 }
 
-.Selected {
-  height: 80%;
-}
 
-.CarouselNav {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-auto-rows: minmax(100px, auto);
-  font-size: 2.5rem;
-}
+

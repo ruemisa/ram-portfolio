@@ -41,7 +41,7 @@ class Projects extends Component {
                     </ul>
                     <h3>Links</h3>
                     <ul>
-                        <li><a href="">Github</a></li>
+                        <li><a href="https://github.com/ruemisa/bakeshack">Github</a></li>
                     </ul>
                 </ProjectBox>
                 <ProjectBox link={ PaperPlanes }>           
@@ -56,7 +56,7 @@ class Projects extends Component {
                     </ul>
                     <h3>Links</h3>
                     <ul>
-                        <li><a href="">Github</a></li>
+                        <li><a href="https://github.com/ruemisa/munderdifflin">Github</a></li>
                     </ul>                
                 </ProjectBox>
             </div>

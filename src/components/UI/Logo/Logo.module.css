@@ -74,6 +74,7 @@
 }
 
 @media only screen 
+  and (min-width: 481px)
   and (max-width: 736px) {
 
     .Logo {
@@ -83,20 +84,29 @@
       left: 5%;
     }
 
-    .LineOne {
-      top: 16%;
-      left: 7.7%;
-      width: 70%
-    }
-
-    .LineTwo {
-      top: 11.2%;
-      left: 33.7%;
+    .LineOne, .LineTwo {
+      display: none;
     }
 }
 
 @media only screen 
-  and (min-width: 900px)
+  and (min-width: 737px)
+  and (max-width: 980px) {
+
+    .Logo {
+      letter-spacing: .8rem;
+      font-size: 4.5rem;
+      top: 0%;
+      left: 5%;
+    }
+
+    .LineOne, .LineTwo {
+      display: none;
+    }
+}
+
+@media only screen 
+  and (min-width: 981px)
   and (max-width: 1280px) {
     
     .LineOne {
@@ -111,16 +121,43 @@
 }
 
 @media only screen 
-  and (min-width: 1300px)
+  and (min-width: 1281px)
   and (max-width: 1440px) {
 
     .LineOne {
-      top: 21.4%;
+      top: 22.4%;
       left: 11.4%;
     }
     
     .LineTwo {
-      top: 18.2%;
+      top: 19.2%;
       left: 26%;
+    }
+}
+
+@media only screen 
+  and (min-width: 1441px)
+  and (max-width: 1490px) {
+    .LineOne {
+      top: 22.4%;
+      left: 11.4%;
+    }
+    
+    .LineTwo {
+      top: 19.2%;
+      left: 26%;
+    }
+}
+
+@media only screen 
+  and (min-width: 1491px) {
+    .LineOne {
+      top: 22.4%;
+      left: 11.2%;
+    }
+    
+    .LineTwo {
+      top: 19.2%;
+      left: 23.7%;
     }
 }

@@ -43,6 +43,7 @@
 }
 
 @media only screen 
+  and (min-width: 481px)
   and (max-width: 736px) {
     
     .SectionIntro {
@@ -63,3 +64,4 @@
       margin: auto;
     }
 }
+

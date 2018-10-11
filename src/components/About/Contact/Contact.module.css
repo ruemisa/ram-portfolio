@@ -34,6 +34,7 @@
 }
 
 @media only screen 
+  and (min-width: 481px)
   and (max-width: 736px) {
 
     .Contact {
@@ -59,11 +60,30 @@
 }
 
 @media only screen 
-  and (min-width: 1300px)
+  and (min-width: 1281px)
   and (max-width: 1440px) {
 
     .Contact {
       right: 15%;
       bottom: 5%;
+    }
+}
+
+@media only screen 
+  and (min-width: 1441px)
+  and (max-width: 1490px) {
+
+    .Contact {
+      right: 15%;
+      bottom: 3%;
+    }
+}
+
+@media only screen 
+  and (min-width: 1491px) {
+    
+    .Contact {
+      right: 20%;
+      bottom: 3%;
     }
 }

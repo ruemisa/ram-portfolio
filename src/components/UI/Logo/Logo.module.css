@@ -6,6 +6,7 @@
   left: 10%;
   margin: auto;
   padding: 15px;
+  color: rgba(165, 2, 2, 0.9);
 }
 
 .LineOne {
@@ -19,7 +20,7 @@
 .LineTwo {
   width: 30%;
   position: absolute;
-  top: 17.9%;
+  top: 17.5%;
   left: 22.35%;
 }
 

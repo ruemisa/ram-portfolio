@@ -1,9 +1,24 @@
 import React from 'react';
 
-const about = ( props ) => {
+// Components 
+import Bio from './Bio/Bio';
+import Intro from './Intro/Intro';
+import Contact from './Contact/Contact';
+
+// Styling 
+import styles from './About.module.css';
+
+const about = () => {
     return (
-        <div>
-            <h2>Meeting the Creator</h2>
+        <div className={ styles.About }>
+            <div className={ styles.SectionIntro }>
+                <h2 id="about" >Get to know me</h2>
+            </div>
+            <div className={ styles.ProfileDetails }>
+                <Bio />
+                <Intro />
+            </div>
+            <Contact />
         </div>
     );
 }

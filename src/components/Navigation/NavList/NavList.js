@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollIntoView from 'react-scroll-into-view';
 
 // Components
 import NavListItem from './NavListItem//NavListItem';
@@ -13,9 +14,15 @@ const navList = ( props ) => {
     if (navType === "sideBar") {
         list = (
             <React.Fragment>
-                <NavListItem link="#projects">Projects</NavListItem>
-                <NavListItem link="#about">About</NavListItem>
-                <NavListItem link="#contact">Contact</NavListItem>            
+                <ScrollIntoView selector="#projects">
+                    <NavListItem>Projects</NavListItem>
+                </ScrollIntoView>
+                <ScrollIntoView selector="#about">
+                    <NavListItem>About</NavListItem>
+                </ScrollIntoView>
+                <ScrollIntoView selector="#contact">
+                    <NavListItem>Contact</NavListItem>            
+                </ScrollIntoView>
             </React.Fragment>
         );
     } else if (navType === "socNav") {

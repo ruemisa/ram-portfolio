@@ -13,9 +13,40 @@
   margin-bottom: -50px;
 }
 
+.HeroIntro {
+  position: relative;
+  top: 65%;
+  left: 72%;
+  color: #000;
+  overflow: hidden;
+  width: 100%;
+  font-size: 3.5rem;
+}
+
+.HeroIntro:before {
+  content: attr(data-title);
+  position: absolute;
+  color: #fafafa;
+  z-index: 2;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 27%;
+}
+
+.HeroIntro span {
+  display: block;
+}
+
+.HeroIntro span:before {
+  content: "";
+  position: absolute;
+  display: block;
+}
+
 .SidePanel {
   display: flex;
   flex-flow: column;
   align-items: flex-end;
   background-color: transparent;
 }
+

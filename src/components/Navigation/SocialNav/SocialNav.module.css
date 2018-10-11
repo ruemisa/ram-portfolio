@@ -30,8 +30,9 @@
 }
 
 .SocNav ul li:hover {
-  color: red;
+  color: rgb(212, 16, 16);
   opacity: 1;
+  cursor: pointer;
 }
 
 .SocNav li:hover:after {

@@ -1,5 +1,5 @@
 .SideBar {
-  background-color: red;
+  background-color: rgb(221, 12, 12);
   width: 15%;
   height: 40vh;
   margin-right: 20%;
@@ -35,6 +35,7 @@
 .SideBar li:hover {
   color: #fafafa;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .SideBar li:hover::after {

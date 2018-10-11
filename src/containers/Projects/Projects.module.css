@@ -10,15 +10,10 @@
 }
 
 .Projects {
-  background-color: #000;
+  background-color: rgba(0, 0, 0, .85);
   color: #fafafa;
-  height: 100vh;
+  height: 110vh;
   padding: 50px;
-  margin-bottom: 20px;
-}
-
-.ProjectGrid * {
-  border: 1px solid red;
 }
 
 .ProjectGrid {

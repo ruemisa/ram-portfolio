@@ -1,0 +1,19 @@
+.About {
+  margin: auto;
+  padding: 15px 35px;
+  position: relative;
+}
+
+.SectionIntro {
+  font-size: 2.8rem;
+  letter-spacing: .5rem;
+  margin-left: 30px;
+  position: relative;
+  z-index: 9999;
+}
+
+.ProfileDetails {
+  display: grid;
+  grid-template-columns: .5fr 1.5fr;
+  grid-auto-rows: minmax(100px, auto);
+}

@@ -21,13 +21,7 @@
 }
 
 .CarouselNav a:hover {
-  color: red;
+  color: rgb(170, 2, 2);
   transition: .8s;
   opacity: 1;
 }
-
-.CarouselNav a {
-  border: 1px solid red;
-}
-
-

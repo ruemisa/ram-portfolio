@@ -16,6 +16,7 @@ const landing = ( props ) => {
         <div className={ styles.Landing }>
             <div className={ styles.Hero }>
                 <Logo />
+                <h2 className={ styles.HeroIntro } data-title="Front-End Developer"><span>Front-End Developer</span></h2>
             </div>
             <div className={ styles.SidePanel }>
                 <SocialNav />

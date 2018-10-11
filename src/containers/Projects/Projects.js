@@ -124,5 +124,3 @@ class Projects extends Component {
 };
 
 export default Projects;
-
-// add background-attachment: fixed; if you want that parallax

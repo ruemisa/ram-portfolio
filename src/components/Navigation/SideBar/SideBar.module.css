@@ -41,3 +41,33 @@
 .SideBar li:hover::after {
   width: 100%;
 }
+
+@media only screen 
+  and (min-width: 375px)
+  and (max-width: 500px)
+  and (min-height: 812px) {
+
+    .SideBar {
+      display: none;
+    }
+
+}
+
+@media only screen 
+  and (min-width: 900px)
+  and (max-width: 1280px) {
+    
+    .SideBar {
+      width: 20%;    
+    }
+  
+}
+
+@media only screen 
+  and (min-width: 1300px)
+  and (max-width: 1440px) {
+
+    .SideBar {
+      width: 20%;    
+    }
+}

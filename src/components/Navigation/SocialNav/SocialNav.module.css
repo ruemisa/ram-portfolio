@@ -38,3 +38,23 @@
 .SocNav li:hover:after {
   width: 100%;
 }
+
+@media only screen 
+  and (min-width: 375px)
+  and (max-width: 500px)
+  and (min-height: 812px) {
+
+    .SocNav {
+      padding: 10px;
+      position: relative;
+      top: 0;
+      left: 8%;
+      right: 0;
+      
+    }
+    
+    .SocNav li {
+      display: inline;
+    }
+
+}

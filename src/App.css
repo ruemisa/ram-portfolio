@@ -19,3 +19,15 @@ a {
 li {
   list-style: none;
 }
+
+@media only screen 
+  and (min-width: 375px)
+  and (max-width: 500px)
+  and (min-height: 812px) {
+
+    body {
+      overflow-x: hidden;
+      margin: auto;
+    }
+
+}

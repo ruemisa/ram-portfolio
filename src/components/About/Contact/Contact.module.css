@@ -17,3 +17,40 @@
   padding: 10px;
   margin: auto;
 }
+
+@media only screen 
+  and (min-width: 375px)
+  and (max-width: 500px)
+  and (min-height: 812px) {
+
+    .Contact {
+      display: block;
+      position: relative;
+      top: 0;
+      right: 0;
+      left: 0;
+      margin: auto;
+    }
+
+}
+
+@media only screen 
+  and (min-width: 900px)
+  and (max-width: 1280px) {
+
+    .Contact {
+      right: 15%;
+      bottom: -5%;
+    }
+  
+}
+
+@media only screen 
+  and (min-width: 1300px)
+  and (max-width: 1440px) {
+
+    .Contact {
+      right: 15%;
+      bottom: 5%;
+    }
+}

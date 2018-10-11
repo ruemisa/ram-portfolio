@@ -34,3 +34,14 @@
   10% { transform: translateY(0); opacity: 1; }
   100% { transform: translateY(15px); opacity: 0;}
 }
+
+@media only screen 
+  and (min-width: 375px)
+  and (max-width: 500px)
+  and (min-height: 812px) {
+
+    .Scrolldowns {
+      display: none;
+    }
+
+}

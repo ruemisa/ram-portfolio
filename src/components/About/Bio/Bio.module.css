@@ -64,3 +64,60 @@
 .ResumeLink:hover::after {
   width: 100%;
 }
+
+@media only screen 
+  and (min-width: 375px)
+  and (max-width: 500px)
+  and (min-height: 812px) {
+
+    .Bio {
+      margin: auto;
+      padding: 25px;
+      width: auto;
+      height: auto;
+    }
+
+    .ProfilePic {
+      top: 20%;
+      left: 24%;
+    }
+}
+
+@media only screen 
+  and (min-width: 900px)
+  and (max-width: 1280px) {
+    
+    .Bio {
+      margin-top: -55%;
+      width: 70%;
+      height: 100vh;
+    }
+
+    .Skills {
+      margin: 250% auto 15% auto;
+    }
+
+    .Skills h3 {
+      font-size: 1.6rem;
+    }
+    
+    .ResumeLink {
+      font-size: 1rem;
+      text-align: center;
+    }
+}
+
+@media only screen 
+  and (min-width: 1300px)
+  and (max-width: 1440px) {
+
+    .Bio {
+      margin-top: -55%;
+      width: 70%;
+      height: 100vh;
+    }
+
+    .Skills {
+      margin: 220% auto 15% auto;
+    }
+}

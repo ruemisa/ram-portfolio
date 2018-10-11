@@ -7,7 +7,7 @@ const contact = () => {
     return(
         <section id="contact" className={ styles.Contact }>
             <h3> Ready to Connect? </h3>
-            <p><i class="fas fa-envelope"></i> ruel.g.misa@gmail.com</p>
+            <p><i className="fas fa-envelope"></i> ruel.g.misa@gmail.com</p>
         </section>
     );
 }

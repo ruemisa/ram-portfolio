@@ -15,7 +15,7 @@ const bio = () => {
                 <p>JavaScript + React + Redux + Ruby + Ruby on Rails + CSS + HTML + Responsive Design</p>
             </div>
             <div className={ styles.ResumeLink }>
-                <a href="https://docs.google.com/document/d/1SxLxFAfMYX6f-dWBKmFSwFUtqd3FAzveC2e-SQS-8eQ/edit#heading=h.30j0zll" target="_blank">Link to my Resume</a>
+                <a href="https://docs.google.com/document/d/1SxLxFAfMYX6f-dWBKmFSwFUtqd3FAzveC2e-SQS-8eQ/edit#heading=h.30j0zll" target="_blank" rel="noopener noreferrer">Link to my Resume</a>
             </div>
         </section>
     );

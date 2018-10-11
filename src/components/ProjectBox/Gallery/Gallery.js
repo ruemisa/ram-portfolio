@@ -11,8 +11,8 @@ const gallery = ( props ) => {
         <div className={ styles.Gallery }>
             <Video link={ props.data.video }/>
             <nav className={ styles.CarouselNav }>
-                <a href="#" onClick={ props.onNext }><i className="fas fa-arrow-circle-up"></i></a>
-                <a href="#" onClick={ props.onPrev }><i className="fas fa-arrow-circle-down"></i></a>
+                <a href="#projects" onClick={ props.onNext }><i className="fas fa-arrow-circle-up"></i></a>
+                <a href="#projects" onClick={ props.onPrev }><i className="fas fa-arrow-circle-down"></i></a>
             </nav>
         </div>
     );

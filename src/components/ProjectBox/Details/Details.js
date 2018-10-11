@@ -7,7 +7,7 @@ const details = ( props ) => {
     
     const dataLink = props.data.links.map( ( link, index ) => {
         return (
-            <a href={ link.url } target="_blank" key={ index } >
+            <a href={ link.url } target="_blank" key={ index } rel="noopener noreferrer" >
                 { link.name }
             </a>
         );

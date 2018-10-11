@@ -17,3 +17,27 @@
   grid-template-columns: .5fr 1.5fr;
   grid-auto-rows: minmax(100px, auto);
 }
+
+@media only screen 
+  and (min-width: 375px)
+  and (max-width: 500px)
+  and (min-height: 812px) {
+
+    .SectionIntro {
+      font-size: 2rem;
+      letter-spacing: .1rem;
+      top: 0; 
+      left: 0;
+      right: 0;
+      padding: 10px;
+      margin: auto;     
+    }
+
+    .ProfileDetails {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-auto-rows: auto;
+      margin: auto;
+    }
+
+}

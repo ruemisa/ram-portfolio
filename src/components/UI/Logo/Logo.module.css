@@ -41,3 +41,51 @@
 .LineTwo :nth-child(3) {
   width: 90%;
 }
+
+@media only screen 
+  and (min-width: 375px)
+  and (max-width: 500px)
+  and (min-height: 812px) {
+
+    .Logo {
+      letter-spacing: .8rem;
+      font-size: 4.5rem;
+      top: 0%;
+      left: 5%;
+    }
+
+    .LineOne, .LineTwo {
+      display: none;
+    }
+
+}
+
+@media only screen 
+  and (min-width: 900px)
+  and (max-width: 1280px) {
+    
+    .LineOne {
+      top: 22.5%;
+      left: 11.5%;
+    }
+    
+    .LineTwo {
+      top: 19.2%;
+      left: 28%;
+    }
+}
+
+@media only screen 
+  and (min-width: 1300px)
+  and (max-width: 1440px) {
+
+    .LineOne {
+      top: 21.4%;
+      left: 11.4%;
+    }
+    
+    .LineTwo {
+      top: 18.2%;
+      left: 26%;
+    }
+}

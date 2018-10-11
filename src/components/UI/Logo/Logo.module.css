@@ -57,12 +57,12 @@
 }
 
 @media only screen 
-  and (min-width: 375px)
-  and (max-width: 500px) {
+  /* and (min-width: 375px) */
+  and (max-width: 480px) {
 
     .Logo {
       letter-spacing: .8rem;
-      font-size: 4.5rem;
+      font-size: 5rem;
       top: 0%;
       left: 5%;
     }
@@ -71,6 +71,28 @@
       display: none;
     }
 
+}
+
+@media only screen 
+  and (max-width: 736px) {
+
+    .Logo {
+      letter-spacing: .8rem;
+      font-size: 4.5rem;
+      top: 0%;
+      left: 5%;
+    }
+
+    .LineOne {
+      top: 16%;
+      left: 7.7%;
+      width: 70%
+    }
+
+    .LineTwo {
+      top: 11.2%;
+      left: 33.7%;
+    }
 }
 
 @media only screen 

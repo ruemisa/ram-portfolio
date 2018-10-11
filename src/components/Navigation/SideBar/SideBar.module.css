@@ -44,12 +44,43 @@
 
 @media only screen 
   /* and (min-width: 375px) */
-  and (max-width: 500px) {
+  and (max-width: 480px) {
 
     .SideBar {
       display: none;
     }
 
+}
+
+@media only screen 
+  and (max-width: 736px) {
+
+    .SideBar {
+      width: auto;
+      height: auto;
+      margin: 0;
+      text-align: center;
+    }
+    
+    .SideBar ul {
+      margin-top: 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .SideBar li {
+      padding: 0;
+      letter-spacing: .2rem;
+      margin: 0;
+      z-index: 0;
+    }
+
+    .SideBar li::after {
+      display: inline;
+      position: none;
+      transform-origin: none;
+      transition: none;
+    }
 }
 
 @media only screen 

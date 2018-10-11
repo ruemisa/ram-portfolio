@@ -52,7 +52,7 @@
 
 @media only screen 
   /* and (min-width: 375px) */
-  and (max-width: 500px) {
+  and (max-width: 480px) {
 
     .Intro {
       padding: 10px;
@@ -64,6 +64,27 @@
       display: none;
     }
 
+}
+
+@media only screen 
+  and (max-width: 736px) {
+    .Intro {
+      padding: 10px;
+      margin: auto;
+      width: 100%;
+    }
+
+    .Line div:nth-child(1) {
+      width: 22%;
+      top: 77%;
+      right: 3%;
+    }
+    
+    .Line div:nth-child(2) {
+      width: 22%;
+      top: 77%;
+      left: 3%;
+    }
 }
 
 @media only screen 

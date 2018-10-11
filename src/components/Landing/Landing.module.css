@@ -89,8 +89,8 @@
 
 
 @media only screen 
-  and (min-width: 375px)
-  and (max-width: 500px) {
+  /* and (min-width: 375px) */
+  and (max-width: 480px) {
 
   .Landing {
     display: block;
@@ -123,6 +123,41 @@
     display: block;
   }
 
+}
+
+@media only screen 
+  and (max-width: 736px) {
+
+    .Landing {
+      display: block;
+      margin: 20px;
+      position: relative;
+    }
+  
+    .Hero {
+      background: center / cover no-repeat url('../../images/hero.jpg');
+      height: 50vh;
+      width: 100%;
+      margin: 10px auto;
+    }
+  
+    .HeroIntro {
+      top: 70%;
+      left: 15%;
+      color: #000;
+      width: 80%;
+      margin: auto;
+      font-size: 2.8rem;
+    }
+  
+    .HeroIntro:before {
+      content: "";
+  
+    }
+  
+    .SidePanel {
+      display: block;
+    }
 }
 
 @media only screen 

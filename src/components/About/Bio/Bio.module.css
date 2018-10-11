@@ -67,7 +67,7 @@
 
 @media only screen 
   /* and (min-width: 375px) */
-  and (max-width: 500px) {
+  and (max-width: 480px) {
 
     .Bio {
       margin: auto;
@@ -81,6 +81,47 @@
       left: 24%;
     }
 }
+
+@media only screen 
+  and (max-width: 736px) {
+
+    .Bio {
+      margin: 0 auto;
+      padding: 5px;
+      width: 90%;
+      height: auto;
+    }
+
+    .ProfilePic {
+      top: 10%;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      height: 50%;
+    }
+
+    .Skills {
+      margin: 70% auto 5% auto;
+      text-align: center;
+    }
+    
+    .Skills h3 {
+      margin-bottom: 10px;
+      font-size: 1.8rem;
+    }
+    
+    .Skills p {
+      font-size: 1.2rem;
+    }
+    
+    .ResumeLink {
+      padding: 15px;
+      font-size: 1.1rem;
+      margin-bottom: 15px;      
+    }
+}
+
+
 
 @media only screen 
   and (min-width: 900px)

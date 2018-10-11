@@ -18,7 +18,7 @@ const intro = () => {
             <div className={ styles.IntroSection }>
                 <p>Hello. I am Ruel, a Front-end Web Developer based in Brooklyn, New York.</p>
                 <p>I consider myself a student of the craft. I keep myself updated with current trends. I dedicate at least an hour of my spare time to study a new language or master my current set of skills.</p>
-                <p>I hope that I can be of your service some day.</p>
+                <p>I can also do Back-end using Ruby and Ruby on Rails. However, I want to concentrate on improving my Front-end skills first.</p>
             </div>
         </section>
     );

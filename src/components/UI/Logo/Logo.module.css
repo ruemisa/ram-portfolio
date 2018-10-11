@@ -43,6 +43,20 @@
 }
 
 @media only screen 
+  and (max-width: 374px) {
+    .Logo {
+      letter-spacing: .8rem;
+      font-size: 3.5rem;
+      top: 0%;
+      left: 5%;
+    }
+
+    .LineOne, .LineTwo {
+      display: none;
+    }
+}
+
+@media only screen 
   and (min-width: 375px)
   and (max-width: 500px) {
 

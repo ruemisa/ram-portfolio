@@ -1,0 +1,87 @@
+.Details {
+  padding: 30px 15px;
+  background-color: #eee;
+  color: #000;
+  text-align: center;
+}
+
+.ProjectName {
+  font-size: 2.3rem;
+  letter-spacing: .3rem;
+  margin: 50px 0 20px 0;
+}
+
+.Technologies {
+  font-size: 1.2rem;
+  word-spacing: .6rem;
+  padding: 5px 0;
+  margin-bottom: 10px;
+}
+
+.Description {
+  padding: 15px;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.ProjectLinks {
+  padding: 15px;
+}
+
+.ProjectLinks a {
+  display: block;
+  width: 15%;
+  padding: 5px;
+  border: 2px solid black;
+  margin: 10px auto;
+}
+
+.ProjectLinks a:hover {
+  background-color: red;
+  border-color: red;
+  color: #fafafa;
+  font-weight: 700;
+  transition: .8s;
+}
+
+@media only screen 
+  and (min-width: 375px)
+  and (max-width: 500px)
+  and (min-height: 812px) {
+
+    .Details {
+      padding: 15px;
+      margin: auto;
+    }
+
+    .ProjectName {
+      font-size: 2rem;
+      margin: 10px auto;
+    }
+
+    .Technologies {
+      font-size: 1rem;
+      word-spacing: .2rem;
+      padding: 10px;
+      margin-bottom: 5px;
+    }
+
+    .Description {
+      padding: 5px;
+      margin-bottom: 5px;
+      font-size: 1rem;
+    }
+
+    .ProjectLinks {
+      padding: 5px;
+    }
+    
+    .ProjectLinks a {
+      display: block;
+      width: 40%;
+      padding: 5px;
+      border: 2px solid black;
+      margin: 10px auto;
+    }
+
+}

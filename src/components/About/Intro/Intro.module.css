@@ -52,8 +52,7 @@
 
 @media only screen 
   and (min-width: 375px)
-  and (max-width: 500px)
-  and (min-height: 812px) {
+  and (max-width: 500px) {
 
     .Intro {
       padding: 10px;

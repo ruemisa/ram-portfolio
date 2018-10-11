@@ -1,0 +1,59 @@
+.GridTitle {
+  position: absolute;
+  color: white;
+  bottom: -6%;
+  left: 25%;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 2.8rem;
+  letter-spacing: .3rem;
+}
+
+.Projects {
+  background-color: rgba(0, 0, 0, .85);
+  color: #fafafa;
+  height: 110vh;
+  padding: 50px;
+}
+
+.ProjectGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: minmax(100px, auto);
+  margin-top: 18%;
+  height: 55vh;
+}
+
+@media only screen 
+  and (min-width: 375px)
+  and (max-width: 500px)
+  and (min-height: 812px) {
+
+    .Projects {
+      background-color: rgba(0, 0, 0, .85);
+      color: #fafafa;
+      height: auto;
+      margin: auto;
+      padding: 10px;
+    }
+
+    .GridTitle {
+      position: absolute;
+      top: 65%;
+      left: 0;
+      right: 0;
+      text-align: center;
+      margin: auto;
+      font-size: 2.5rem;
+      letter-spacing: .1rem;
+    }
+
+    .ProjectGrid {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-auto-rows: auto;
+      margin: 30% 0 0 0;
+      height: auto;
+    }
+
+}

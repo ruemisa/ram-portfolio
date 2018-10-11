@@ -1,0 +1,123 @@
+.Bio {
+  background-color: rgb(221, 12, 12);
+  margin-top: -35%;
+  padding: 15px;
+  width: 70%;
+  height: 70vh;
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.ProfilePic {
+  height: 30%;
+  width: auto;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+}
+
+.Skills {
+  margin: 120% auto 15% auto;
+  text-align: center;
+}
+
+.Skills h3 {
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+}
+
+.Skills p {
+  font-size: 1.2rem;
+}
+
+.ResumeLink {
+  background-color: #000;
+  color: #fafafa;
+  padding: 15px;
+  font-size: 1.1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.ResumeLink::after {
+  content: '';
+  width: 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: #eee;
+  transform-origin: left;
+  transition: width .5s ease-in-out;
+  z-index: -1;
+}
+
+.ResumeLink:hover {
+  font-weight: bold;
+  color: #000;
+}
+
+.ResumeLink:hover::after {
+  width: 100%;
+}
+
+@media only screen 
+  and (min-width: 375px)
+  and (max-width: 500px)
+  and (min-height: 812px) {
+
+    .Bio {
+      margin: auto;
+      padding: 25px;
+      width: auto;
+      height: auto;
+    }
+
+    .ProfilePic {
+      top: 20%;
+      left: 24%;
+    }
+}
+
+@media only screen 
+  and (min-width: 900px)
+  and (max-width: 1280px) {
+    
+    .Bio {
+      margin-top: -55%;
+      width: 70%;
+      height: 100vh;
+    }
+
+    .Skills {
+      margin: 250% auto 15% auto;
+    }
+
+    .Skills h3 {
+      font-size: 1.6rem;
+    }
+    
+    .ResumeLink {
+      font-size: 1rem;
+      text-align: center;
+    }
+}
+
+@media only screen 
+  and (min-width: 1300px)
+  and (max-width: 1440px) {
+
+    .Bio {
+      margin-top: -55%;
+      width: 70%;
+      height: 100vh;
+    }
+
+    .Skills {
+      margin: 220% auto 15% auto;
+    }
+}

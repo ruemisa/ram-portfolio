@@ -1,0 +1,47 @@
+.Scrolldowns {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: -70%;
+  left: 0;
+  margin: auto;
+  width :34px;
+  height: 55px;
+}
+.Mouse {
+  width: 3px;
+  padding: 10px 15px;
+  height: 30px;
+  border: 3px solid #fafafa;
+  border-radius: 100%;
+  opacity: 0.75;
+  box-sizing: content-box;
+}
+
+.Scrolling {
+  width: 3px;
+  height: 10px;
+  border-radius: 35%;
+  background-color: #fafafa;
+  animation-name: scroll;
+  animation-duration: 2.2s;
+  animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+  animation-iteration-count: infinite;
+}
+
+@keyframes scroll {
+  0% { opacity: 0; }
+  10% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(15px); opacity: 0;}
+}
+
+@media only screen 
+  and (min-width: 375px)
+  and (max-width: 500px)
+  and (min-height: 812px) {
+
+    .Scrolldowns {
+      display: none;
+    }
+
+}

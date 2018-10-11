@@ -1,0 +1,102 @@
+.Intro {
+  padding: 20px;
+  margin: 10px auto;
+  width: 80%;
+}
+
+.Title {
+  padding: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  position: relative;
+}
+
+.Title h2 {
+  font-size: 2.5rem;
+  letter-spacing: .3rem;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 3px solid red;
+}
+
+.Title p {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.Line div:nth-child(1) {
+  border: 1px solid black;
+  width: 30%;
+  position: absolute;
+  top: 75.5%;
+  right: 4.5%;
+}
+
+.Line div:nth-child(2) {
+  border: 1px solid black;
+  width: 30%;
+  position: absolute;
+  top: 75.5%;
+  left: 4.5%;
+}
+
+.IntroSection {
+  padding: 20px;
+  border-bottom: 2px solid #000;
+  font-size: 1.5rem;
+}
+
+.IntroSection p {
+  margin-bottom: 15px;
+}
+
+@media only screen 
+  and (min-width: 375px)
+  and (max-width: 500px)
+  and (min-height: 812px) {
+
+    .Intro {
+      padding: 10px;
+      margin: auto;
+      width: 100%;
+    }
+
+    .Line {
+      display: none;
+    }
+
+}
+
+@media only screen 
+  and (min-width: 900px)
+  and (max-width: 1280px) {
+
+    .Line div:nth-child(1) {
+      width: 25%;
+      top: 77%;
+      right: 3%;
+    }
+    
+    .Line div:nth-child(2) {
+      width: 25%;
+      top: 77%;
+      left: 3%;
+    }
+}
+
+@media only screen 
+  and (min-width: 1300px)
+  and (max-width: 1440px) {
+
+    .Line div:nth-child(1) {
+      width: 27.5%;
+      top: 77%;
+      right: 3%;
+    }
+    
+    .Line div:nth-child(2) {
+      width: 27.5%;
+      top: 77%;
+      left: 3%;
+    }
+}

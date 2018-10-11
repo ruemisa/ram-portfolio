@@ -1,33 +1,52 @@
 .Landing {
-  height: auto;
+  display: grid; 
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: minmax(100px, auto);
+  margin: 25px 0 5px 25px;
 }
 
 .Hero {
   background: center / cover no-repeat url('../../images/hero.jpg');
   height: 80vh;
+  width: 110%;
+  margin-top: -25px;
+  margin-bottom: -50px;
+}
+
+.HeroIntro {
+  position: relative;
+  top: 65%;
+  left: 72%;
+  color: #000;
+  overflow: hidden;
+  width: 100%;
+  font-size: 3.5rem;
+}
+
+.HeroIntro:before {
+  content: attr(data-title);
+  position: absolute;
+  color: #fafafa;
+  z-index: 2;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 27%;
+}
+
+.HeroIntro span {
+  display: block;
+}
+
+.HeroIntro span:before {
+  content: "";
+  position: absolute;
+  display: block;
+}
+
+.SidePanel {
   display: flex;
+  flex-flow: column;
+  align-items: flex-end;
+  background-color: transparent;
 }
 
-.Catchphrase {
-  align-self: center;
-  margin-left: 15rem;
-  padding: 2rem;
-}
-
-.Catchphrase h2 {
-  font-size: 3.2rem;
-  letter-spacing: .2rem;
-  margin-bottom: .5rem;
-}
-
-.Emphasis {
-  font-weight: bold;
-  color: rgba(255,100,  0,1);
-  letter-spacing: .5rem;
-}
-
-.Catchphrase p {
-  font-size: 1.5rem;
-  letter-spacing: .5rem;
-  color: rgba(255,242,233,1);
-}

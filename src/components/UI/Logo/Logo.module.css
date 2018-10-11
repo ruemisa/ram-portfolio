@@ -1,0 +1,43 @@
+.Logo {
+  letter-spacing: 1.2rem;
+  font-size: 5rem;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  margin: auto;
+  padding: 15px;
+  color: rgba(165, 2, 2, 0.9);
+}
+
+.LineOne {
+  width: 50%;
+  border: 1px solid black;
+  position: absolute;
+  top: 21%;
+  left: 11%;
+}
+
+.LineTwo {
+  width: 30%;
+  position: absolute;
+  top: 17.5%;
+  left: 22.35%;
+}
+
+.LineTwo div {
+  width: 10%;
+  border: 1px solid black;
+  margin: 5px 0;
+}
+
+.LineTwo :nth-child(1) {
+  width: 30%;
+}
+
+.LineTwo :nth-child(2) {
+  width: 60%;
+}
+
+.LineTwo :nth-child(3) {
+  width: 90%;
+}

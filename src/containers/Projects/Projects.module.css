@@ -1,0 +1,26 @@
+.GridTitle {
+  position: absolute;
+  color: white;
+  bottom: -6%;
+  left: 25%;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 2.8rem;
+  letter-spacing: .3rem;
+}
+
+.Projects {
+  background-color: rgba(0, 0, 0, .85);
+  color: #fafafa;
+  height: 110vh;
+  padding: 50px;
+}
+
+.ProjectGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: minmax(100px, auto);
+  margin-top: 18%;
+  height: 55vh;
+}
+

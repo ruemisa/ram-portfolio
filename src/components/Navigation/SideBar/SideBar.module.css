@@ -1,0 +1,43 @@
+.SideBar {
+  background-color: rgb(221, 12, 12);
+  width: 15%;
+  height: 40vh;
+  margin-right: 20%;
+  text-align: center;
+}
+
+.SideBar ul {
+  margin-top: 35%;
+}
+
+.SideBar li {
+  font-size: 1.2rem;
+  padding: 20px 0;
+  margin-bottom: 15px;
+  letter-spacing: .2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.SideBar li::after {
+  content: '';
+  width: 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: #000;
+  transform-origin: left;
+  transition: width .45s ease-in-out;
+  z-index: -1;
+}
+
+.SideBar li:hover {
+  color: #fafafa;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.SideBar li:hover::after {
+  width: 100%;
+}

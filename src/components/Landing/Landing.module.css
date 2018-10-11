@@ -89,7 +89,7 @@
 
 
 @media only screen 
-  /* and (min-width: 375px) */
+  and (min-width: 375px)
   and (max-width: 480px) {
 
   .Landing {
@@ -219,7 +219,7 @@
     }
 }
 
-@media only screen 
+/* @media only screen 
   and (min-width: 1491px) {
     .HeroIntro {
       top: 65%;
@@ -230,4 +230,4 @@
     .HeroIntro:before {
       width: 35%;
     }
-}
+} */

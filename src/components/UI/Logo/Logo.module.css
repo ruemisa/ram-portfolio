@@ -57,7 +57,7 @@
 }
 
 @media only screen 
-  /* and (min-width: 375px) */
+  and (min-width: 375px)
   and (max-width: 480px) {
 
     .Logo {
@@ -149,7 +149,7 @@
     }
 }
 
-@media only screen 
+/* @media only screen 
   and (min-width: 1491px) {
     .LineOne {
       top: 22.4%;
@@ -160,4 +160,4 @@
       top: 19.2%;
       left: 23.7%;
     }
-}
+} */

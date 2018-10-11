@@ -36,11 +36,11 @@
 
     .GridTitle {
       position: absolute;
-      top: 69%;
+      top: 70%;
       left: 0;
       right: 0;
       text-align: center;
-      margin: auto;
+      margin: 10px auto;
       font-size: 2.5rem;
       letter-spacing: .1rem;
     }

@@ -50,9 +50,7 @@
   margin-bottom: 15px;
 }
 
-@media only screen 
-  /* and (min-width: 375px) */
-  and (max-width: 480px) {
+@media (max-width: 480px) {
 
     .Intro {
       padding: 10px;

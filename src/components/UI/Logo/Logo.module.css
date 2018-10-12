@@ -42,11 +42,10 @@
   width: 90%;
 }
 
-@media only screen 
-  and (max-width: 374px) {
+@media (max-width: 374px) {
     .Logo {
       letter-spacing: .8rem;
-      font-size: 3.5rem;
+      font-size: 3rem;
       top: 0%;
       left: 5%;
     }
@@ -56,13 +55,12 @@
     }
 }
 
-@media only screen 
-  and (min-width: 375px)
+@media (min-width: 375px)
   and (max-width: 480px) {
 
     .Logo {
       letter-spacing: .8rem;
-      font-size: 5rem;
+      font-size: 3.5rem;
       top: 0%;
       left: 5%;
     }

@@ -42,9 +42,7 @@
   width: 100%;
 }
 
-@media only screen 
-  /* and (min-width: 375px) */
-  and (max-width: 480px) {
+@media (max-width: 480px) {
 
     .SideBar {
       display: none;

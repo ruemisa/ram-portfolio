@@ -52,8 +52,7 @@
 
 /* Media Queries */
 
-@media only screen 
-  and (max-width: 374px) {
+@media (max-width: 374px) {
     
     .Landing {
       display: block;
@@ -88,8 +87,7 @@
 }
 
 
-@media only screen 
-  and (min-width: 375px)
+@media (min-width: 375px)
   and (max-width: 480px) {
 
   .Landing {

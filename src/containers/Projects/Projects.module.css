@@ -24,8 +24,7 @@
   height: 55vh;
 }
 
-@media only screen 
-  and (max-width: 374px) {
+@media (max-width: 374px) {
     .Projects {
       background-color: rgba(0, 0, 0, .85);
       color: #fafafa;
@@ -55,8 +54,7 @@
 }
 
 
-@media only screen 
-  and (min-width: 375px)
+@media (min-width: 375px)
   and (max-width: 480px) {
 
     .Projects {

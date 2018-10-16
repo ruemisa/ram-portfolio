@@ -64,7 +64,7 @@ class Projects extends Component {
                 {
                     id: 4,
                     title: 'Conquest',
-                    description: 'A Full-stack application built with Rails API back-end and React front-end. It is designed using a mobile-first approach. Demo login ( username: keltoh, password: 111111 ).',
+                    description: 'A Full-stack application built with Rails API back-end and React front-end. It is designed using a mobile-first approach. The project is ongoing, meaning features are being added constantly. Demo login ( username: keltoh, password: 111111 ).',
                     technologies: 'React + Rails + Google Maps API + CSS',
                     video: Conquest, 
                     links: [

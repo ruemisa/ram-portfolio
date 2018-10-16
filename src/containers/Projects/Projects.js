@@ -8,6 +8,7 @@ import Gallery from '../../components/ProjectBox/Gallery/Gallery';
 import Rubicks from '../../videos/rubicks.mp4';
 import BakeShack from '../../videos/bakeshack.mp4';
 import PaperPlanes from '../../videos/paper-planes.mp4';
+import Conquest from '../../videos/conquest.mp4';
 
 // Styling
 import styles from './Projects.module.css';
@@ -60,6 +61,23 @@ class Projects extends Component {
                         }
                     ]
                 },
+                {
+                    id: 4,
+                    title: 'Conquest',
+                    description: 'A Full-stack application built with Rails API back-end and React front-end. It is designed using a mobile-first approach. Demo login ( username: keltoh, password: 111111 ).',
+                    technologies: 'React + Rails + Google Maps API + CSS',
+                    video: Conquest, 
+                    links: [
+                        {
+                            name: 'Github',
+                            url: "https://github.com/ruemisa/conquest-app"
+                        },
+                        {
+                            name: 'Heroku',
+                            url: "https://conquest-poi-app.herokuapp.com/"
+                        }
+                    ]
+                }
 
             ],
             currentIndex: 0

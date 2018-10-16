@@ -10,8 +10,8 @@ class Layout extends Component {
         return (
             <div> 
                 <Landing />
-                <Projects />
-                <About />
+                {/* <Projects />
+                <About /> */}
             </div>
         );
     }

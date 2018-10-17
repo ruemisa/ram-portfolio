@@ -2,7 +2,6 @@ import React from 'react';
 
 // UI Elements
 import Logo from '../UI/Logo/Logo';
-import MouseIcon from '../UI/MouseIcon/MouseIcon';
 
 // Navigation Components 
 import SocialNav from '../Navigation/SocialNav/SocialNav';
@@ -15,15 +14,12 @@ const landing = ( props ) => {
     return (
         <div className={ styles.Landing }>
             <div className={ styles.Hero }>
-                <Logo />
-                <h2 className={ styles.HeroIntro } data-title="Front-End Developer"><span>Front-End Developer</span></h2>
+                <Logo />        
             </div>
             <div className={ styles.SidePanel }>
                 <SocialNav />
                 <SideBar />
-                <MouseIcon />
-            </div>
-            
+            </div>          
         </div>
     );
 }

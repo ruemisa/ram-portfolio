@@ -12,7 +12,7 @@ const about = () => {
     return (
         <div className={ styles.About }>
             <div className={ styles.SectionIntro }>
-                <h2 id="about" >Get to know me</h2>
+                <h2 id="about">Meet the Creator</h2>
             </div>
             <div className={ styles.ProfileDetails }>
                 <Bio />

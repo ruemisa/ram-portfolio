@@ -9,10 +9,6 @@ const intro = () => {
             <div className={ styles.Title }>
                 <h2> Ruel Alfonso Misa </h2>
                 <p>Front-end Web Developer</p>
-                <div className={ styles.Line }>
-                    <div></div>
-                    <div></div>
-                </div>
             </div>
 
             <div className={ styles.IntroSection }>

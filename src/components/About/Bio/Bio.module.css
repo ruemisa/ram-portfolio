@@ -1,218 +1,33 @@
 .Bio {
-  background-color: rgb(221, 12, 12);
-  margin-top: -35%;
-  padding: 15px;
-  width: 70%;
-  height: 70vh;
-  position: relative;
+  background-color: #D1E8F5;
+  margin: 0 20px 25px 20px;
+  padding: 20px 10px;
   display: flex;
   flex-flow: column;
   align-items: center;
-  justify-content: center;
-  z-index: 1;
+  box-shadow: 0px 10px 50px -10px rgba(107,107,107,1);  
 }
 
 .ProfilePic {
-  height: 30%;
-  width: auto;
-  position: absolute;
-  top: 25%;
-  left: 50%;
+  height: 60%;
+  width: 60%;
+  margin: 15px 0;
+  border-radius: 50%;
 }
 
 .Skills {
-  margin: 120% auto 15% auto;
   text-align: center;
+  margin-bottom: 15px;
+  padding: 12px;
 }
 
-.Skills h3 {
-  margin-bottom: 10px;
-  font-size: 1.8rem;
-}
-
-.Skills p {
-  font-size: 1.2rem;
+.Skills h3{
+  margin-bottom: 12px;
+  padding: 5px;
+  font-size: 1.3rem;
 }
 
 .ResumeLink {
-  background-color: #000;
-  color: #fafafa;
-  padding: 15px;
-  font-size: 1.1rem;
-  position: relative;
-  z-index: 1;
-}
-
-.ResumeLink::after {
-  content: '';
-  width: 0;
-  height: 100%;
-  top: 0;
-  left: 0;
-  position: absolute;
-  background-color: #eee;
-  transform-origin: left;
-  transition: width .5s ease-in-out;
-  z-index: -1;
-}
-
-.ResumeLink:hover {
-  font-weight: bold;
-  color: #000;
-}
-
-.ResumeLink:hover::after {
-  width: 100%;
-}
-
-@media (max-width: 480px) {
-
-    .Bio {
-      margin: auto;
-      padding: 25px;
-      width: auto;
-      height: auto;
-    }
-
-    .ProfilePic {
-      top: 20%;
-      left: 24%;
-    }
-}
-
-@media only screen 
-  and (min-width: 481px)
-  and (max-width: 736px) {
-
-    .Bio {
-      margin: 0 auto;
-      padding: 5px;
-      width: 90%;
-      height: auto;
-    }
-
-    .ProfilePic {
-      top: 10%;
-      left: 0;
-      right: 0;
-      margin: 0 auto;
-      height: 50%;
-    }
-
-    .Skills {
-      margin: 70% auto 5% auto;
-      text-align: center;
-    }
-    
-    .Skills h3 {
-      margin-bottom: 10px;
-      font-size: 1.8rem;
-    }
-    
-    .Skills p {
-      font-size: 1.2rem;
-    }
-    
-    .ResumeLink {
-      padding: 15px;
-      font-size: 1.1rem;
-      margin-bottom: 15px;      
-    }
-}
-
-@media only screen 
-  and (min-width: 737px)
-  and (max-width: 980px) {
-
-    .ProfilePic {
-      height: 30%;
-      width: auto;
-      position: absolute;
-      top: 17%;
-      left: 30%;
-    }
-  
-}
-
-
-@media only screen 
-  and (min-width: 981px)
-  and (max-width: 1280px) {
-    
-    .Bio {
-      margin-top: -55%;
-      width: 70%;
-      height: 100vh;
-    }
-
-    .Skills {
-      margin: 250% auto 15% auto;
-    }
-
-    .Skills h3 {
-      font-size: 1.6rem;
-    }
-    
-    .ResumeLink {
-      font-size: 1rem;
-      text-align: center;
-    }
-}
-
-@media only screen 
-  and (min-width: 1281px)
-  and (max-width: 1440px) {
-
-    .Bio {
-      margin-top: -55%;
-      width: 70%;
-      height: 100vh;
-    }
-
-    .Skills {
-      margin: 220% auto 15% auto;
-    }
-}
-
-@media only screen 
-  and (min-width: 1441px)
-  and (max-width: 1490px) {
-    .Bio {
-      margin-top: -55%;
-      width: 70%;
-      height: 100vh;
-    }
-
-    .ProfilePic {
-      height: 30%;
-      width: auto;
-      position: absolute;
-      top: 30%;
-      left: 40%;
-    }
-
-    .Skills {
-      margin: 220% auto 15% auto;
-    }
-}
-
-@media only screen 
-  and (min-width: 1491px) {
-    .Bio {
-      margin-top: -55%;
-      width: 70%;
-      height: 100vh;
-    }
-
-    .ProfilePic {
-      height: 30%;
-      width: auto;
-      position: absolute;
-      top: 30%;
-      left: 45%;
-    }
-
-    .Skills {
-      margin: 170% auto 15% auto;
-    }
+  padding: 10px;
+  border-bottom: 2px solid #28262C;  
 }

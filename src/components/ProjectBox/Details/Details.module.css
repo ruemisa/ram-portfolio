@@ -54,3 +54,31 @@
     margin-bottom: 25px;
   }
 }
+
+@media only screen and (min-device-width : 1025px) and (max-device-width : 1380px) {
+  .ProjectName {
+    font-size: 2rem;
+  }
+
+  .Technologies {
+    font-size: 1.2rem;
+  }
+
+  .Description {
+    font-size: 1.2rem;
+  }
+
+  .ProjectLinks a {
+    width: 25%;
+    padding: 10px 0;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+  }
+
+  .ProjectLinks a:hover {
+    background-color: #D2AB99;
+    transition: .7s;
+    font-weight: 700;
+  }
+
+}

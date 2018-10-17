@@ -3,6 +3,7 @@
   padding: 15px 0;
   margin-bottom: 25px;
   box-shadow: 0px 10px 50px -10px rgba(107,107,107,1);
+  height: auto;
 }
 
 .GridTitle {
@@ -16,5 +17,19 @@
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
   .GridTitle {
     font-size: 3rem;
+  }
+}
+
+@media only screen and (min-device-width : 1025px) and (max-device-width : 1380px) {
+  
+  .GridTitle {
+    font-size: 3.2rem;
+  }
+
+  .ProjectGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    margin-bottom: 25px;
   }
 }

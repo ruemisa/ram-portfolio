@@ -14,3 +14,30 @@
     font-size: 2rem;
   }
 }
+
+@media only screen and (min-device-width : 1025px) and (max-device-width : 1380px) {
+
+  .About {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    'title title'
+    'details details'
+    'contact contact';
+  }
+
+  .ProfileDetails {
+    grid-area: details;
+    display: grid;
+    grid-template-columns: .75fr 1.25fr;
+    grid-template-areas: 
+    'bio intro';
+    padding: 20px;
+    margin: 15px auto;
+  }
+
+  .SectionIntro {
+    grid-area: title;
+    font-size: 2rem;
+  }
+}

@@ -23,6 +23,10 @@
   padding: 10px;
 }
 
+.IntroSection p {
+  margin-bottom: 15px;
+}
+
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
   .Intro {
     margin: 0 auto 60px auto;
@@ -43,4 +47,29 @@
     padding: 20px;
     font-size: 1.15rem;
   }
+
+}
+
+@media only screen and (min-device-width : 1025px) and (max-device-width : 1380px) {
+  .Intro {
+    grid-area: intro;
+    margin: 0 auto 60px auto;
+    width: 80%;
+  }
+
+  .Title h2 {
+    font-size: 2.5rem;
+  }
+
+  .Title p {
+    font-size: 1.8rem;
+  }
+
+  .IntroSection {
+    margin: 30px auto 0 auto;
+    width: 85%;
+    padding: 20px;
+    font-size: 1.5rem;
+  }
+
 }

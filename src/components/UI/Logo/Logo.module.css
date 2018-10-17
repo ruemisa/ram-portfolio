@@ -14,3 +14,10 @@
     font-size: 3.5rem;
   }
 }
+
+@media only screen and (min-device-width : 1025px) and (max-device-width : 1380px) {
+  .Logo {
+    width: 35%;
+    font-size: 4rem;
+  }
+}

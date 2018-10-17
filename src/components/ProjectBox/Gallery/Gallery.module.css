@@ -20,3 +20,22 @@
     margin: 15px 0;
   }
 }
+
+@media only screen and (min-device-width : 1025px) and (max-device-width : 1380px) {
+  .Gallery {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .CarouselNav a {
+    font-size: 2.5rem;
+    margin-top: 20px;
+  }
+
+  .CarouselNav a i:hover {
+    color: #D2AB99;
+    transition: .7s;
+    text-shadow: none;
+  }
+
+}

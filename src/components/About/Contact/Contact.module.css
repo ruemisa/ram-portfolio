@@ -20,3 +20,20 @@
     font-size: 1.2rem;
   }
 }
+
+@media only screen and (min-device-width : 1025px) and (max-device-width : 1380px) {
+  .Contact {
+    grid-area: contact;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .Contact h3 {
+    font-size: 2rem;
+    margin-bottom: 20px; 
+  }
+
+  .Contact p {
+    font-size: 1.2rem;
+  }
+}

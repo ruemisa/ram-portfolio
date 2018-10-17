@@ -29,7 +29,6 @@
 
 .ResumeLink {
   padding: 10px;
-  border-bottom: 2px solid #28262C;  
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
@@ -62,5 +61,61 @@
     padding: 15px;
     margin-bottom: 10px;
     font-size: 1.1rem;
+  }
+}
+
+@media only screen and (min-device-width : 1025px) and (max-device-width : 1380px) {
+  .Bio {
+    grid-area: bio;
+    margin: 0 auto 60px auto;
+    width: 90%;
+  }
+  
+  .ProfilePic {
+    height: auto;
+    width: 80%;
+  }
+
+  .Skills {
+    padding: 20px;
+  }
+
+  .Skills h3 {
+    font-size: 2rem;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+
+  .Skills p {
+    font-size: 1.3rem;
+    padding: 10px;
+  }
+
+  .ResumeLink {
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    position: relative;
+  }
+
+  .ResumeLink:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 100%;
+    width: 100%;
+    height: 3px;
+    background-color: #28262C;
+    transition: width .3s ease-in-out;
+  }
+
+  .ResumeLink:hover {
+    font-weight: 700;
+  }
+
+  .ResumeLink:hover:after {
+    width: 0;
   }
 }

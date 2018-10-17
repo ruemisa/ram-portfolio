@@ -14,13 +14,12 @@ const landing = ( props ) => {
     return (
         <div className={ styles.Landing }>
             <div className={ styles.Hero }>
-                <Logo />
+                <Logo />        
             </div>
             <div className={ styles.SidePanel }>
                 <SocialNav />
                 <SideBar />
-            </div>
-            
+            </div>          
         </div>
     );
 }

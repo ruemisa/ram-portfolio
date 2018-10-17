@@ -1,5 +1,8 @@
 .Landing {
-  border: 1px solid red;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  height: 65vh;
+  margin-bottom: 25px;
 }
 
 .Hero {

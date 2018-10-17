@@ -1,0 +1,15 @@
+.CarouselNav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.CarouselNav a {
+  text-align: center;
+  font-size: 2rem;
+  padding: 10px;
+}
+
+.CarouselNav a i {
+  text-shadow: 0px 5px 30px rgba(107,107,107,.7);
+}

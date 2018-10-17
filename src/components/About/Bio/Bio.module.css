@@ -31,3 +31,36 @@
   padding: 10px;
   border-bottom: 2px solid #28262C;  
 }
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .Bio {
+    margin: 0 auto 60px auto;
+    width: 80%;
+  }
+  
+  .ProfilePic {
+    height: 40%;
+    width: 40%;
+  }
+
+  .Skills {
+    padding: 20px;
+  }
+
+  .Skills h3 {
+    font-size: 1.6rem;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+
+  .Skills p {
+    font-size: 1.1rem;
+    padding: 10px;
+  }
+
+  .ResumeLink {
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+  }
+}

@@ -22,3 +22,25 @@
 .IntroSection {
   padding: 10px;
 }
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .Intro {
+    margin: 0 auto 60px auto;
+    width: 80%;
+  }
+
+  .Title h2 {
+    font-size: 2.2rem;
+  }
+
+  .Title p {
+    font-size: 1.3rem;
+  }
+
+  .IntroSection {
+    margin: 20px auto;
+    width: 85%;
+    padding: 20px;
+    font-size: 1.15rem;
+  }
+}

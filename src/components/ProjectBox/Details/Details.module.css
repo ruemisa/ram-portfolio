@@ -34,3 +34,23 @@
   box-shadow: 0px 10px 50px -10px rgba(107,107,107,1);
   background-color: #D1E8F5;
 }
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .ProjectName {
+    font-size: 2rem;
+  }
+
+  .Technologies {
+    font-size: 1.2rem;
+  }
+
+  .Description {
+    font-size: 1.2rem;
+  }
+
+  .ProjectLinks a {
+    width: 30%;
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+  }
+}

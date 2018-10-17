@@ -39,3 +39,39 @@
   }
 
 }
+
+@media only screen and (min-device-width : 1381px) and (max-device-width : 1823px) {
+  .Gallery {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .CarouselNav a {
+    font-size: 2.8rem;
+    margin-top: 20px;
+  }
+
+  .CarouselNav a i:hover {
+    color: #D2AB99;
+    transition: .7s;
+    text-shadow: none;
+  }
+}
+
+@media only screen and (min-device-width : 1824px) {
+  .Gallery {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .CarouselNav a {
+    font-size: 2.8rem;
+    margin-top: 20px;
+  }
+
+  .CarouselNav a i:hover {
+    color: #D2AB99;
+    transition: .7s;
+    text-shadow: none;
+  }
+}

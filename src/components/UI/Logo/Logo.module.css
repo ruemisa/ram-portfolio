@@ -21,3 +21,17 @@
     font-size: 4rem;
   }
 }
+
+@media only screen and (min-device-width : 1381px) and (max-device-width : 1823px) {
+  .Logo {
+    width: 30%;
+    font-size: 4.5rem;
+  }
+}
+
+@media only screen and (min-device-width : 1824px) {
+  .Logo {
+    width: 30%;
+    font-size: 5rem;
+  }
+}

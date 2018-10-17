@@ -33,3 +33,31 @@
     margin-bottom: 25px;
   }
 }
+
+@media only screen and (min-device-width : 1381px) and (max-device-width : 1823px) {
+  .GridTitle {
+    font-size: 3.6rem;
+    padding: 30px 0;
+  }
+
+  .ProjectGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (min-device-width : 1824px) {
+  .GridTitle {
+    font-size: 4rem;
+    padding: 30px 0;
+  }
+
+  .ProjectGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    margin-bottom: 40px;
+  }
+}

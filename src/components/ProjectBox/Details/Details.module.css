@@ -82,3 +82,65 @@
   }
 
 }
+
+@media only screen and (min-device-width : 1381px) and (max-device-width : 1823px) {
+  .Details {
+    padding: 30px;
+  }
+  
+  .ProjectName {
+    font-size: 2.5rem;
+  }
+
+  .Technologies {
+    font-size: 1.5rem;
+  }
+
+  .Description {
+    font-size: 1.5rem;
+  }
+
+  .ProjectLinks a {
+    width: 25%;
+    padding: 10px 0;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+  }
+
+  .ProjectLinks a:hover {
+    background-color: #D2AB99;
+    transition: .7s;
+    font-weight: 700;
+  }
+}
+
+@media only screen and (min-device-width : 1824px) {
+  .Details {
+    padding: 50px;
+  }
+  
+  .ProjectName {
+    font-size: 3rem;
+  }
+
+  .Technologies {
+    font-size: 1.8rem;
+  }
+
+  .Description {
+    font-size: 1.8rem;
+  }
+
+  .ProjectLinks a {
+    width: 23%;
+    padding: 10px 0;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+  }
+
+  .ProjectLinks a:hover {
+    background-color: #D2AB99;
+    transition: .7s;
+    font-weight: 700;
+  }
+}

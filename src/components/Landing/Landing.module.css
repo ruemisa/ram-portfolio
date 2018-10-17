@@ -12,3 +12,61 @@
   background-position: 50% 30%;
   height: 50vh;
 }
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .Landing {
+    grid-template-rows: 1fr;
+    position: relative;
+    height: 70vh;
+    margin-bottom: 10px;
+  }
+
+  .Hero {
+    height: 60vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-device-width : 1025px) and (max-device-width : 1380px) {
+  .Landing {
+    grid-template-rows: 1fr;
+    position: relative;
+    height: 80vh;
+    margin-bottom: 10px;
+  } 
+
+  .Hero {
+    height: 70vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-device-width : 1381px) and (max-device-width : 1823px) {
+  .Landing {
+    grid-template-rows: 1fr;
+    position: relative;
+    height: 90vh;
+    margin-bottom: 10px;
+  } 
+
+  .Hero {
+    height: 80vh;
+    width: 100%;
+    background-position: center;
+  }
+}
+
+@media only screen and (min-device-width : 1824px) {
+  .Landing {
+    grid-template-rows: 1fr;
+    position: relative;
+    height: 100vh;
+    margin-bottom: 10px;
+  } 
+
+  .Hero {
+    height: 90vh;
+    width: 100%;
+    background-position: center;
+  }
+}

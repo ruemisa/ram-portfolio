@@ -1,5 +1,10 @@
 .Selected {
-  height: 100%;
+  height: auto;
   width: 100%;
 }
 
+@media only screen and (min-device-width : 1025px) and (max-device-width : 1380px) {
+  .Selected {
+    height: auto;
+  }
+}

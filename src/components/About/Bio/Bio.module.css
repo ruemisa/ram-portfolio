@@ -29,5 +29,207 @@
 
 .ResumeLink {
   padding: 10px;
-  border-bottom: 2px solid #28262C;  
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .Bio {
+    margin: 0 auto 60px auto;
+    width: 80%;
+  }
+  
+  .ProfilePic {
+    height: 40%;
+    width: 40%;
+  }
+
+  .Skills {
+    padding: 20px;
+  }
+
+  .Skills h3 {
+    font-size: 1.6rem;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+
+  .Skills p {
+    font-size: 1.1rem;
+    padding: 10px;
+  }
+
+  .ResumeLink {
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (min-device-width : 1025px) and (max-device-width : 1380px) {
+  .Bio {
+    grid-area: bio;
+    margin: 0 auto 60px auto;
+    width: 90%;
+  }
+  
+  .ProfilePic {
+    height: auto;
+    width: 80%;
+  }
+
+  .Skills {
+    padding: 20px;
+  }
+
+  .Skills h3 {
+    font-size: 2rem;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+
+  .Skills p {
+    font-size: 1.3rem;
+    padding: 10px;
+  }
+
+  .ResumeLink {
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    position: relative;
+  }
+
+  .ResumeLink:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 100%;
+    width: 100%;
+    height: 3px;
+    background-color: #28262C;
+    transition: width .3s ease-in-out;
+  }
+
+  .ResumeLink:hover {
+    font-weight: 700;
+  }
+
+  .ResumeLink:hover:after {
+    width: 0;
+  }
+}
+
+@media only screen and (min-device-width : 1381px) and (max-device-width : 1823px) {
+  .Bio {
+    grid-area: bio;
+    margin: 0 auto 60px auto;
+    width: 90%;
+    padding: 30px 20px;
+  }
+  
+  .ProfilePic {
+    height: auto;
+    width: 70%;
+  }
+
+  .Skills {
+    padding: 20px;
+  }
+
+  .Skills h3 {
+    font-size: 2.3rem;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+
+  .Skills p {
+    font-size: 1.6rem;
+    padding: 10px;
+  }
+
+  .ResumeLink {
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    position: relative;
+  }
+
+  .ResumeLink:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 100%;
+    width: 100%;
+    height: 3px;
+    background-color: #28262C;
+    transition: width .3s ease-in-out;
+  }
+
+  .ResumeLink:hover {
+    font-weight: 700;
+  }
+
+  .ResumeLink:hover:after {
+    width: 0;
+  }
+}
+
+@media only screen and (min-device-width : 1824px) {
+  .Bio {
+    grid-area: bio;
+    margin: 0 auto 60px auto;
+    width: 90%;
+    padding: 30px 20px;
+  }
+  
+  .ProfilePic {
+    height: auto;
+    width: 55%;
+  }
+
+  .Skills {
+    padding: 20px;
+  }
+
+  .Skills h3 {
+    font-size: 2.4em;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+
+  .Skills p {
+    font-size: 1.8rem;
+    padding: 10px;
+  }
+
+  .ResumeLink {
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    position: relative;
+  }
+
+  .ResumeLink:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 100%;
+    width: 100%;
+    height: 3px;
+    background-color: #28262C;
+    transition: width .3s ease-in-out;
+  }
+
+  .ResumeLink:hover {
+    font-weight: 700;
+  }
+
+  .ResumeLink:hover:after {
+    width: 0;
+  }
 }

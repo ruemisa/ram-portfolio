@@ -9,3 +9,65 @@
   margin-bottom: 10px;
   font-size: 1.6rem;
 }
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .Contact h3 {
+    font-size: 2rem;
+    margin-bottom: 20px; 
+  }
+
+  .Contact p {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-device-width : 1025px) and (max-device-width : 1380px) {
+  .Contact {
+    grid-area: contact;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .Contact h3 {
+    font-size: 2rem;
+    margin-bottom: 20px; 
+  }
+
+  .Contact p {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-device-width : 1381px) and (max-device-width : 1823px) {
+  .Contact {
+    grid-area: contact;
+    width: 65%;
+    margin: 0 auto;
+  }
+  
+  .Contact h3 {
+    font-size: 2.3rem;
+    margin-bottom: 20px; 
+  }
+
+  .Contact p {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-device-width : 1824px) {
+  .Contact {
+    grid-area: contact;
+    width: 65%;
+    margin: 0 auto;
+  }
+  
+  .Contact h3 {
+    font-size: 2.5rem;
+    margin-bottom: 20px; 
+  }
+
+  .Contact p {
+    font-size: 1.8rem;
+  }
+}

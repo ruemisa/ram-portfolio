@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Videos and Images 
-import ProfilePic from '../../../images/profile.jpg';
+import ProfilePic from '../../../images/profile.png';
 
 // Styling
 import styles from './Bio.module.css';
@@ -15,7 +15,7 @@ const bio = () => {
                 <p>JavaScript + React + Redux + Ruby + Ruby on Rails + CSS + HTML + Responsive Design</p>
             </div>
             <div className={ styles.ResumeLink }>
-                <a href="https://drive.google.com/file/d/1kGINmtt0PdbKqNe-vcm5RyXRZh-Z-mpm/view?usp=sharing" target="_blank">Link to my Resume</a>
+                <a href="https://drive.google.com/file/d/1rTSWSyA_gK10n7O_TVkVKiVaXIGBNVU1/view?usp=sharing" target="_blank">Link to my Resume</a>
             </div>
         </section>
     );

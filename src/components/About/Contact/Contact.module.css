@@ -10,6 +10,10 @@
   font-size: 1.6rem;
 }
 
+.Contact p {
+  margin-bottom: 10px;
+}
+
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
   .Contact h3 {
     font-size: 2rem;

@@ -12,34 +12,19 @@ const bio = () => {
             <img className={ styles.ProfilePic } src={ ProfilePic } alt="profile_pic" />
             <div className={ styles.Skills }>
                 <h3>Skills</h3>
-                <p>Programming Languages</p>
-                <ul>
-                    <li>JavaScript</li>
-                    <li>Ruby</li>    
-                </ul> 
-                <p>Frameworks/Libraries</p>
-                <ul>
-                    <li>React</li>
-                    <li>Redux</li>
-                    <li>Rails</li>
-                    <li>Bootstrap</li>
-                </ul>
-                <p>Markup/Design</p>
-                <ul>
-                    <li>Sass</li>
-                    <li>CSS3</li>
-                    <li>HTML5</li>
-                </ul>
-                <p>Other Technical Skills</p>
-                <ul>
-                    <li>PostgreSQL</li>
-                    <li>Git</li>
-                    <li>Responsive Design</li>
-                    <li>BEM methodology</li>
-                </ul>
+                <p>
+                    Proficient: 
+                    <br></br><br></br>
+                    JavaScript + React + Redux + jQuery + CSS3 + Sass + HTML5 + Ruby + Rails + PostgreSQL + SQL + Bootstrap + Git + REST API + Responsive Design + BEM Methodology + Version Control
+                </p>
+                <p>
+                    Familiar: 
+                    <br></br><br></br>
+                    Node.js + Express.js + GraphQL + MongoDB + Java + Python + NoSQL + MySQL
+                </p>
             </div>
             <div className={ styles.ResumeLink }>
-                <a href="https://drive.google.com/file/d/17f-bw-VvV5s9fYfZmsOpWe7mzMJ1nI48/view?usp=sharing" target="_blank">Link to my Resume</a>
+                <a href="https://drive.google.com/file/d/1nvOMPD_jVjVxocM5V-ZkJ-MYkPpYa9xm/view?usp=sharing" target="_blank">Link to my Resume</a>
             </div>
         </section>
     );

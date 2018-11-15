@@ -7,7 +7,6 @@ import Gallery from '../../components/ProjectBox/Gallery/Gallery';
 // Videos & Images 
 import Rubicks from '../../videos/rubicks.mp4';
 import Conquest from '../../videos/conquest.mp4';
-import Pokedex from '../../videos/pokedex.mp4';
 import Salon from '../../videos/salon.mp4';
 import Barter from '../../videos/barter-post.mp4';
 import Building from '../../videos/building-scout.mp4';
@@ -56,19 +55,6 @@ class Projects extends Component {
                 },
                 {
                     id: 3,
-                    title: "Strewbs' Pokedex",
-                    description: 'A Single-Page Web application that provides useful information for three pokemon by making HTTP requests to the Pokemon RESTful API. Materialize CSS was integrated for the layout. The CSS was also written using SASS.',
-                    technologies: 'SASS + HTML5 + JavaScript + Materialize CSS + Pokemon API',
-                    video: Pokedex,
-                    links: [
-                        {
-                            name: 'Github',
-                            url: "https://github.com/ruemisa/personal_pokedex"
-                        }
-                    ]
-                },
-                {
-                    id: 4,
                     title: "Home Salon",
                     description: 'A landing page layout of a company that provides hairstyling services at home. This project follows the BEM methodology and is responsive across multiple devices. Customized npm scripts were also created to build the final compiled css file.',
                     technologies: 'SASS + HTML5 + CSS3',
@@ -81,7 +67,7 @@ class Projects extends Component {
                     ]
                 },
                 {
-                    id: 5,
+                    id: 4,
                     title: "Barter Trading Post",
                     description: 'A user dashboard interface design of a barter trading auction house platform. This project uses Flexbox for the overall layout of the dashboard. It is responsive across multiple devices. Custom npm scripts were also created for building the compiled css file.',
                     technologies: 'SASS + HTML5 + CSS3',
@@ -94,7 +80,7 @@ class Projects extends Component {
                     ]
                 },
                 {
-                    id: 6,
+                    id: 5,
                     title: "Building Scout",
                     description: 'A landing page layout of a company that provides tenant reviews about an apartment building. This project utilizes some basic css animation, and jQuery. It is responsive across multiple devices.',
                     technologies: 'jQuery + CSS3 + HTML5',
